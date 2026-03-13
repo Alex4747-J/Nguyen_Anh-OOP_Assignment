@@ -15,6 +15,10 @@ use MyProject\Traits\HasSmokeTrait;
 class Jett extends Duelist {
     use HasSmokeTrait;
     
+    /**
+     * @var int $dashCharges - the number of dash charges Jett has
+     */
+    
     protected int $dashCharges = 2;
         /**
         * Create a new agent named Jett and health.
@@ -59,7 +63,7 @@ class Jett extends Duelist {
      *
      * @return void
      */
-    
+
     public function reloadDash(): void
     {
         $this->dashCharges = 2;

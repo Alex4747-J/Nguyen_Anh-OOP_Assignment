@@ -5,13 +5,17 @@ namespace MyProject\Agents\Duelists;
 use MyProject\Agents\Duelist;
 
 /**
- * Jett
+ * Reyna
  *
- * Represents the agent Jett, extending the Duelist class.
+ * Represents the agent Reyna, extending the Duelist class.
  */
 
 class Reyna extends Duelist {
-    
+
+    /**
+    * @var int $takeSouls - the number of soul charges Reyna has
+    */
+
     protected int $takeSouls = 2;
         /**
         * Create a new agent named Reyna and health.
@@ -56,7 +60,7 @@ class Reyna extends Duelist {
      *
      * @return void
      */
-    
+
     public function reloadSoul(): void
     {
         $this->takeSouls = 2;
