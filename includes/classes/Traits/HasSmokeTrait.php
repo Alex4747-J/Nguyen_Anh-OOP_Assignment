@@ -10,7 +10,7 @@ namespace MyProject\Traits;
 
 trait HasSmokeTrait {
 
-    /*
+    /**
     * @var int - the number of smoke remaining.
     */
 
@@ -24,11 +24,7 @@ trait HasSmokeTrait {
     public function deploySmoke(): void {
         if ($this->smokeCount >0) {
             $this->smokeCount--;
-<<<<<<< Updated upstream:includes/classes/Traits.php/HasSmokeTrait.php
-            echo "<p>" . $this->name . "deploys a smoke! Remaining smokes: " . $this->smokeCount;
-=======
-            echo "<p>" . $this->name . " deploys a smoke! Remaining smokes: " . $this->smokeCount . "</p>";
->>>>>>> Stashed changes:includes/classes/Traits/HasSmokeTrait.php
+            echo "<p>" . $this->name . " deploys a smoke! Remaining smokes: " . $this->smokeCount;
         } else {
             echo "<p>" . $this->name . " has no smokes remaining!</p>";
         }
