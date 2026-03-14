@@ -10,7 +10,7 @@ namespace MyProject\Traits;
 
 trait HasSmokeTrait {
 
-    /*
+    /**
     * @var int - the number of smoke remaining.
     */
 
