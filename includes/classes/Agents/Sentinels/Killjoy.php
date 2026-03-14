@@ -32,10 +32,7 @@ class Killjoy extends Sentinel {
      */
 
     public function describe(): void {
-<<<<<<< Updated upstream
-=======
         parent::describe();
->>>>>>> Stashed changes
         echo "<p>" . $this->name . " is a tech-savvy Sentinel who       excels at controlling the battlefield with her gadgets. Killjoy can deploy turrets, nano swarms, and lockdown devices to defend key areas and support her team.</p>";
     }
 
