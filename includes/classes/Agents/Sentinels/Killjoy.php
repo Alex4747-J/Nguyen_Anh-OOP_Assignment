@@ -27,7 +27,8 @@ class Killjoy extends Sentinel {
     }
 
     /**
-     * describe Killjoy with additional information about her playstyle and abilities.
+     * Describe Killjoy with additional information about her playstyle and abilities.
+     * @return void
      */
 
     public function describe(): void {
