@@ -37,7 +37,7 @@ trait HasSmokeTrait {
 
     public function rechargeSmoke(): void {
         $this->smokeCount = 3;
-        echo "<p>" . $this->name . " recharged their smokes!";
+        echo "<p>" . $this->name . " recharged their smokes!</p>";
     }
 
 }
