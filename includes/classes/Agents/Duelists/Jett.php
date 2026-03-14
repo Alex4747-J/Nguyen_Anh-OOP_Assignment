@@ -31,6 +31,16 @@ class Jett extends Duelist {
     }
 
      /**
+      * Describe Jett with additional information about her playstyle and abilities.
+      */
+
+     public function describe(): void
+     {
+        parent::describe();
+        echo "<p>" . $this->name . " is a Duelist agent known for her agility and mobility, allowing her to quickly navigate the battlefield and surprise enemies with swift attacks.</p>";
+     }
+
+     /**
      * Attack method specific to Jett
      *
      * @return void

@@ -27,6 +27,17 @@ class Reyna extends Duelist {
         $this->takeSouls = 2;
     }
 
+    /**
+     * Describe Reyna with additional information about her playstyle and abilities.
+     */
+
+    public function describe(): void
+    {
+        parent::describe();
+        echo "<p>" . $this->name . " is a Duelist agent known for her self-sustain and ability to take advantage of kills, allowing her to heal herself and become more powerful as she eliminates enemies.</p>";
+     }
+    
+
      /**
      * Attack method specific to Reyna
      *
