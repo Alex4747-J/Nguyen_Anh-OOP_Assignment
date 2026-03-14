@@ -30,6 +30,14 @@ class Omen extends Controller {
         $this->blindCharges = 2;
     }
 
+    /**
+     * Describe Omen's unique playstyle and abilities.
+     */
+
+    public function describe(): void {
+        echo "<p>" . $this->name . " is a mysterious controller who excels at manipulating the battlefield with smokes and blinds. Omen can disorient enemies and create opportunities for his team to strike.</p>";
+    }
+
      /**
      * Attack method specific to Omen
      *
