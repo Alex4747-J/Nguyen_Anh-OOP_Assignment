@@ -28,7 +28,7 @@ class Sentinel extends Agent {
      * @return void
      */
     public function attack(): void {
-        echo "<p>" . $this->name . " is holding their ground!";
+        echo "<p>" . $this->name . " is holding their ground!</p>";
     }
 
     /**
