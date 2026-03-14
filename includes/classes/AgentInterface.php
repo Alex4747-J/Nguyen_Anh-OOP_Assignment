@@ -14,10 +14,20 @@ interface AgentInterface {
      * Describes the agent's characteristics and abilities.
      * @return void
      */
-    
+
     public function describe(): void;
 
+    /**
+     * Executes the agent's attack.
+     * @return void
+     */
+    
     public function attack(): void;
+
+    /**
+     * Uses the agent's ability.
+     * @return void
+     */
 
     public function useAbility(): void;
 }
