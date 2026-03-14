@@ -26,6 +26,14 @@ class Killjoy extends Sentinel {
         $this->nanoSwamp = 2;
     }
 
+    /**
+     * describe Killjoy with additional information about her playstyle and abilities.
+     */
+
+    public function describe(): void {
+        echo "<p>" . $this->name . " is a tech-savvy Sentinel who       excels at controlling the battlefield with her gadgets. Killjoy can deploy turrets, nano swarms, and lockdown devices to defend key areas and support her team.</p>";
+    }
+
      /**
      * Attack method specific to Killjoy
      *
