@@ -32,6 +32,7 @@ class Omen extends Controller {
 
     /**
      * Describe Omen's unique playstyle and abilities.
+     * @return void
      */
 
     public function describe(): void {
