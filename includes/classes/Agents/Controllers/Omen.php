@@ -36,6 +36,7 @@ class Omen extends Controller {
      */
 
     public function describe(): void {
+        parent::describe();
         echo "<p>" . $this->name . " is a mysterious controller who excels at manipulating the battlefield with smokes and blinds. Omen can disorient enemies and create opportunities for his team to strike.</p>";
     }
 
