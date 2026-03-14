@@ -24,7 +24,7 @@ trait HasSmokeTrait {
     public function deploySmoke(): void {
         if ($this->smokeCount >0) {
             $this->smokeCount--;
-            echo "<p>" . $this->name . " deploys a smoke! Remaining smokes: " . $this->smokeCount;
+            echo "<p>" . $this->name . " deploys a smoke! Remaining smokes: " . $this->smokeCount . "</p>";
         } else {
             echo "<p>" . $this->name . " has no smokes remaining!</p>";
         }
